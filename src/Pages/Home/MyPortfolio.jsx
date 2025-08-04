@@ -10,7 +10,7 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a
-            href="https://github.com/Khusi2005/My-Portfolio"
+            href="https://khusiportfolio.vercel.app/"
             className="btn btn-github"
           >
           Visit My Portfolio
