@@ -2,76 +2,50 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Programming Languages",
+      "description": "C,C++,Python,SQL"
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Web Development",
+      "description": "HTML, CSS, JavaScript, ReactJS"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Data Science",
+      "description": "Numpy,Pandas,Matplotlib,Seaborn"
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Tools",
+      "description": " Visual Studio Code, Git/Github, MySQL, Jupyter Notebook,Power BI"
+    },
+    {
+      "id": "5",
+      "title": "Core CS Concepts",
+      "description": " Data Structures and Algorithms, Object Oriented Programming, Operating System, Database Management System, Digital Logic Design, Linux/Unix"
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    }
+      "src": "https://github.com/user-attachments/assets/b91fb330-5cae-4f3f-95cf-adda04039f86",
+      "title": " Climico",
+       "description": [
+    "Built a responsive weather website providing real-time weather updates using WeatherAPI, displaying temperature, weather conditions, wind speed, and more.",
+    "Implemented dynamic UI updates based on user location or manual city search input."
   ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "link": "https://github.com/Khusi2005/Climico"
     },
     {
       "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "https://github.com/user-attachments/assets/2c1ba738-48ab-4385-8976-2913ed280ed3",
+      "title": "ExchangeBooth",
+      "description": [
+      " A real-time currency converter application designed for ease of use, providing accurate global exchange rates.",
+      "Integrated instant calculation features, making it ideal for travelers and finance professionals."
+      ],
+      "link": "https://github.com/Khusi2005/ExchangeBooth"
     }
   ]
 }

@@ -14,8 +14,8 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu;
+      if (window.innerWidth <= 3000) {
+        closeMenu();
       }
     };
 
@@ -27,15 +27,15 @@ function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu;
+    if (window.innerWidth <= 3000) {
+      closeMenu();
     }
   }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <h2>My Portfolio</h2>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -59,6 +59,20 @@ function Navbar() {
               className="navbar--content"
             >
               Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Academics"
+              className="navbar--content"
+            >
+              My Academics
             </Link>
           </li>
           <li>
@@ -97,26 +111,28 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Resources"
               className="navbar--content"
             >
-              Testimonials
+              Resources
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
+              className="navbar--content"
+            >
+              Contact Me
             </Link>
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
     </nav>
   );
 }
